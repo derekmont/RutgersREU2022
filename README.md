@@ -41,7 +41,7 @@
 
 > filterPercentage = float in range x, 0 < x < 1 																		
 ### Syntax
-### If you would like to run the process after logging off, the 'nohup' command is needed, as well as the ' > outputFile.txt' where output.txt is any predfined txt file
+### If you would like to run the process after logging off, the 'nohup' command is needed, as well as the ' > outputFile.txt' where output.txt is any predfined .txt file
 > nohup python3 Formal.py dataset lr batchSz Epoch1 Epoch2 fitlerPercentage > outputFile.txt 
 
 ### Write to the command line
