@@ -22,9 +22,7 @@
 > To learn more about the pruning algorithm click here!! ----> https://arxiv.org/abs/1608.08710 
 
 <h3> Capabilities and Limitations </h3> 
-> This program is currently able to prune the model SCNNB, a shallow convolutional neural network, using a set precision of filter percentage for every layer of the 
-> model. The datasets used in this program include CIFAR10 and MNIST Fashion, two image classification datasets. I would like to extend this pruning method to be 
-> applicable to more datasets, and especially being able to be implemented using other neural network models such as VGG16 or AlexNet. 
+> This program is currently able to prune the model SCNNB, a shallow convolutional neural network, using a set precision of filter percentage for every layer of the  model. The datasets used in this program include CIFAR10 and MNIST Fashion, two image classification datasets. I would like to extend this pruning method to be  applicable to more datasets, and especially being able to be implemented using other neural network models such as VGG16 or AlexNet. 
 
 
 ### Installations needed
