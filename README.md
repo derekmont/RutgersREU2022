@@ -43,18 +43,13 @@
 
 > Epoch2 = int in range x, x > 0
 
-> filterPercentage = float in range x, 0 < x < 1 																		
+> filterPercentage = float in range x, 0 <= x < 1 																		
 ### Syntax
-### If you would like to run the process after logging off, the 'nohup' command is needed, as well as the ' > outputFile.txt' where output.txt is any predfined .txt file
-> nohup python3 Formal.py dataset lr batchSz Epoch1 Epoch2 fitlerPercentage > outputFile.txt 
+### Baseline model - No Pruning 
+> nohup python3 Formal.py dataset lr batchSz Epoch1 Epoch2 0.0 > outputFile.txt
 
-### Write to the command line
-> python3 Formal.py dataset lr batchSz Epoch1 Epoch2 filterPercentage 
+### Pruned Version
+> nohup python3 Formal.py dataset lr batchSz Epoch1 Epoch2 fitlerPercentage > outputFile.txt 
 
 ### Example
 > nohup: nohup python3 Formal.py fashion 0.001 128 35 30 0.4 > outputFile.txt 
-
-> w/out nohup: python3 Formal.py fashion 0.001 128 35 30 0.4
-
-
-
