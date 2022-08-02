@@ -29,13 +29,17 @@
 				
 > Python 3.7 - 3.10
 
-> Ubuntu 16.04 
+> Ubuntu 16.04 or later
 
 > Windows 7 or Later	
 
-> Installation of tensorflow 
+> Installation of tensorflow ---> https://www.tensorflow.org/install/pip
 
-> Installation of keras
+> Installation of keras ---> https://www.tutorialspoint.com/keras/keras_installation.htm
+
+> Installation of numpy
+
+> Installation of pandas
 
 ### Command line arguments needed
 
