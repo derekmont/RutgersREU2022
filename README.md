@@ -8,7 +8,7 @@
 <p> With the surgence of neural networks, and the impressive tasks they acccomplish in our everyday life, we encounter a problem. The problem is the size of state of the art neural networks, impose large compuational and memory costs. It is difficult to deploy and use deep neural networks on edge devices, because of the computational and memory constraints that the edge devices have. We would like to compress deep neural networks into smaller models that work as well or better than the original deep model. The smaller model will be easier to deploy and use on edge devices, while hopefully not damaging the performance of the model too drastically. Deep neural network compression methods have been proposed since the late 1980's. When applying these compression methods, it is impportant to analyze and justify the compression vs. accuracy tradeoff, and this pruning implementation will help in analyzing this problem. 
 	
 ### Testings 
-> The following are tests conducted with personally set hyperparameters 
+> The following are tests conducted with set hyperparameters, learning rate = 0.001 and batch size = 128 
 ### MNIST Fashion Dataset - Number of Parameters after Pruning at Different Levels vs. Accuracy
 ![fashion](https://user-images.githubusercontent.com/98001990/182316067-e8de044e-6052-4249-b6d2-36ae827aa925.png)
 
