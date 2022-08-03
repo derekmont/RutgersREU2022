@@ -19,8 +19,8 @@
 
 
 ### 'Pruning Filters for Efficient ConvNets' and SCNNB
-> To learn more about the pruning algorithm click here!! ----> https://arxiv.org/abs/1608.08710 
-> To learn more about he model used in this implementation!! ----> https://link.springer.com/article/10.1007/s42452-019-1903-4
+<p> To learn more about the pruning algorithm click here!! ----> https://arxiv.org/abs/1608.08710 </p>
+<p> To learn more about he model used in this implementation!! ----> https://link.springer.com/article/10.1007/s42452-019-1903-4 </p>
 
 <h3> Capabilities and Limitations </h3> 
 <p> This program is currently able to prune the model SCNNB, a shallow convolutional neural network, using a set precision of filter percentage for every layer of the  model. The datasets used in this program include CIFAR10 and MNIST Fashion, two image classification datasets. I would like to extend this pruning method to be  applicable to more datasets, and especially being able to be implemented using other neural network models such as VGG16 or AlexNet. </p>
